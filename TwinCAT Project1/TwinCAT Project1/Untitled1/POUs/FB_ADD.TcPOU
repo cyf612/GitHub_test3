@@ -12,7 +12,7 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[out:=in1+in2;]]></ST>
     </Implementation>
     <LineIds Name="FB_ADD">
       <LineId Id="9" Count="0" />
