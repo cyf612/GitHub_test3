@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
-  <POU Name="FB_ADD" Id="{64a54632-e845-4caf-bc77-991e14d0722e}" SpecialFunc="None">
-    <Declaration><![CDATA[FUNCTION_BLOCK FB_ADD
+  <POU Name="FB_MUX" Id="{a133e9c4-d39f-46fb-b382-f88dd4608554}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_MUX
 VAR_INPUT
 	in1,in2:INT;
 END_VAR
@@ -12,12 +12,10 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[
-]]></ST>
+      <ST><![CDATA[out:=in1*in2;]]></ST>
     </Implementation>
-    <LineIds Name="FB_ADD">
+    <LineIds Name="FB_MUX">
       <LineId Id="9" Count="0" />
-      <LineId Id="19" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>

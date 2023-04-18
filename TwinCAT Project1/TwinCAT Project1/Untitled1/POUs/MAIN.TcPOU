@@ -7,6 +7,7 @@ VAR
 	b:INT;
 	c:INT;
 	add1:FB_ADD;
+	mux1:FB_MUX;
 	ton1:Tc2_Standard.TON;
 END_VAR
 ]]></Declaration>
